@@ -1,4 +1,4 @@
-cuvant = 'onomatopee'
+cuvant = input("alege un cuvant de ghicit:")
 cuvant_de_inlocuit = ''
 for i in cuvant:
     if i != cuvant[0] and i != cuvant[-1]:
