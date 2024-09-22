@@ -20,3 +20,4 @@ lista.pop(3)
 lista.pop(4)
 lista.sort() #doar daca au acelasi tip!! (poate sorta si daca ramane true in lista de integer, ca o ia ca 1, nu face diferenta dintre false si 0, respectiv 1 si true, le sorteaza in ordinea aparitiei daca sunt amandoua prezente)
 print(lista)
+#string ul este tot o lista, dar imutabila

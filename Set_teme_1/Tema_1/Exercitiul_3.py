@@ -1,5 +1,6 @@
 anul = input("Introduceti anul dorit: ")
 format_corect_an = True
+#verific daca ce am introdus de la tastatura este un integer (respectiv daca poate fi un an), sau un string
 for caracter in anul:
     if caracter < '0' or caracter > '9':
         format_corect_an = False
