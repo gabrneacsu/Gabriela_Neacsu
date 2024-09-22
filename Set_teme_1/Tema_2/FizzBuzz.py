@@ -11,5 +11,5 @@ if numar.isdigit():
 print(rezultat)
 
 # element.isdigit()
-#       => True - daca caracterele din string sunt cifre
-#       => False - altfel
+#       daca caracterele din string sunt cifre => True
+#       altfel => False
