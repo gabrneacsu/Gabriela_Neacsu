@@ -6,6 +6,7 @@ lista_utilizatori = [
 #Rezolvare top filme
 lista_filme_totala = lista_utilizatori[0].get('filme') + lista_utilizatori[1].get('filme') + lista_utilizatori[2].get(
     'filme')  #este o lista ce contine toate filmele vizionate de toti utilizatorii la un loc
+
 element = element_aux = 'None'
 i = j = 0
 frecventa_maxima = 0
@@ -51,3 +52,9 @@ print(f'Topul utilizatorilor este: {lista_nume}')
 print(f"Utilizatorul cu cele mai multe filme vizionate este {lista_nume[0]}")
 
 # mentiune, puteam sa rezolv si cerinta cu top utilizatori, si pe cea cu top filme cu dictionare, dar mi am dat seama dupa
+
+
+#TODO: de abordat situatia in care daca doua filme au acelasi nr de vizionari, la maxim, ce fac
+
+# recomandare de evitat for in for
+# mai util un dictionar, unde trec cheie = nume film, valoare = aparitie film

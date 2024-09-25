@@ -17,7 +17,6 @@ elif cnp.isdigit() and len(cnp) == 13:
             c = c % 11
         if c != int(cnp[12]):
             rezultat = 'Codul C din CNP este invalid!'
-
         #calculez anul in care este nascuta persoana
         if int(cnp[0]) in [1, 2, 7, 8, 9]:
             aa = 1900 + int(cnp[1]) * 10 + int(cnp[2])
@@ -46,9 +45,11 @@ elif cnp.isdigit() and len(cnp) == 13:
         elif ll == 2:
             if (is_bisect and zz not in range(1, 30)) or (not is_bisect and zz not in range(1, 29)):
                 rezultat = 'Ziua din CNP este invalida!'
-        if jj not in range(1, 53):
+        if jj not in range(1, 47) or jj != 51 or jj != 52:
             rezultat = 'Codul judetului din CNP este invalid!'
         if nnn not in range(1, 1000):
             rezultat = 'Codul NNN din CNP este invalid!'
 
 print(rezultat)
+
+#idee: de facut un dictionar cu toate lunile, judetele etc (ex: 01 ian) pentru o afisare mai buna

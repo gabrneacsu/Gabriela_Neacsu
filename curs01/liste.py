@@ -6,7 +6,7 @@ print(type(lista))
 # print(lista[2:8])
 # print(lista[-1])
 # print(lista[-6])
-# print(lista[-6:])
+print(lista[::-1])
 # print(lista[-6:-3])
 # print(lista[2:8:2]) #[poz_start:poz_stop:pas]
 lista.append(5.6) #adauga la finalul listei
