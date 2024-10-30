@@ -1,1 +1,1 @@
-parola = 'my_sqlBbg13'
+parola = ''
