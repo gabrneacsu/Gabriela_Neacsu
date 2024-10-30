@@ -1,0 +1,1 @@
+parola = 'my_sqlBbg13'
